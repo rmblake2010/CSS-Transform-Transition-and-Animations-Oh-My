@@ -20,7 +20,7 @@
 
 nav {
   opacity: 0;
-  transition-duration: 1s;
+  transition-duration: 2s;
 }
 
 .hamburger:hover ~ nav {
@@ -28,16 +28,16 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {transform: rotate(0deg);}
+  to {transform: rotate(60deg) translate(29px, 18px);}
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {opacity: 1;}
+  to {opacity: 0;}
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {transform: rotate(0deg);}
+  to {transform: rotate(-60deg) translate(27px, -18px);}
 }
